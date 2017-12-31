@@ -16,9 +16,10 @@ ralf@erdnute.de/o,o,bb
 
 ## ADD - Dateien  zur Versionskontrolle hinzufügen
 * git add wird zu verschiedenen Zwecken eingesetzt. Man verwendet ihn, um neue Dateien zur Versionskontrolle hinzuzufügen, Dateien für einen Commit zu markieren und verschiedene andere Dinge – beispielsweise, einen Konflikt aus einem Merge als aufgelöst zu kennzeichnen
-* Git merkt eine Datei in exakt dem Zustand für den Commit vor, in dem sie sich befindet, als "git add" ausgefüht wurde. Wenn sie nach dem "add" verändert wurde, wird diese Änderung ignoriert (erneutes add ist notwendig)
-    $ git add *.txt
-    $ git add readme.md
+* Git merkt eine Datei in exakt dem Zustand für den Commit vor, in dem sie sich befindet, als "git add" ausgefüht wurde. Wenn sie nach dem "add" verändert wurde, wird diese Änderung ignoriert (erneutes add ist notwendig):
+
+      $ git add *.txt
+      $ git add readme.md
 
 ## Commit
     $ git commit -m 'Kommentar'
@@ -29,10 +30,10 @@ ralf@erdnute.de/o,o,bb
 * also nicht wie bei "svn checkout" nur ein einziger Versionsstand
 * Git legt ein Projekt-Verzeichnis an, initialisiert ein .git Verzeichnis darin (komplettes Repository), lädt alle Daten des Repositorys herunter, und checkt eine Arbeitskopie der letzten Version aus.
 
-    $ git clone [url]
-    $ git clone git://github.com/schacon/grit.git
-    $ git clone https://github.com/erdnute/notes.git
-    $ git clone https://erdnute@bitbucket.org/erdnute/eins.git
+      $ git clone [url]
+      $ git clone git://github.com/schacon/grit.git
+      $ git clone https://github.com/erdnute/notes.git
+      $ git clone https://erdnute@bitbucket.org/erdnute/eins.git
 
 ## Übertragungsprotokolle
 * git:// 
@@ -46,7 +47,7 @@ ralf@erdnute.de/o,o,bb
 * staged (für den nächsten Commit vorgemerkt, "Changes to be committed")
 * "add" -> staged
 
-    $ git status
+      $ git status
 
 
 ## Config
@@ -56,13 +57,11 @@ ralf@erdnute.de/o,o,bb
 ## .gitignore
 * kann man selber anlegen
 
-    .-----------
-    *.class
-    bin/
-    *.exe
-    .-----------
+        *.class
+       bin/
+        *.exe
 
-* github.com/github/gitignore (A collection of useful .gitignore templates)
+* github.com/github/gitignore (a collection of useful .gitignore templates)
 
 
 ## log
@@ -78,8 +77,8 @@ ralf@erdnute.de/o,o,bb
 2. Create new Repository "code-examples"
 3. in local console:
 
-    $ git remote add origin https://github.com/erdnute/code-examples.git
-    $ git push -u origin master
+       $ git remote add origin https://github.com/erdnute/code-examples.git
+       $ git push -u origin master
 
 
 
