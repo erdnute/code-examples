@@ -94,8 +94,24 @@ ralf@erdnute.de/o2|bb
       $ git show v0.1 # Shows details about the commit that was tagged
 
 ## Branching
+* The default branch is called the master. As you make additional commits the current newest version is referred to as the master.
+* Each branch creates a new pointer to a committed version of files and doesn't make another copy of the files
+* A pointer known as HEAD can be pointed at any committed version or to any branch with the checkout command
+* When you are finished with your branch you can merge back into the master commit and move on.
 
-   $ git bbb
+      $ git checkout -b fix20 # Create a branch and switch to it
+      $ git branch fix20 # create a branch
+	  $ git checkout fix20 # switch to branch
+      $ git checkout master # switch to master
+      $ git push origin fix20 # Push the branch to GitHub
+      $ git checkout -b fix20 origin/fix20 # Retrieves the branch fix20
+      $ git branch # Shows all branches
+      $ git branch --merged # Shows all merged branches
+      $ git branch --no-merged # Shows unmerged branches
+      $ git branch -v # Shows all branches and their last commits, * Points out the branch currently checked out
+      $ git merge fix20 # Merge the branch version with the master
+
+   
 
 
 
