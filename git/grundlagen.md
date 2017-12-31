@@ -56,11 +56,13 @@ ralf@erdnute.de/o,o,bb
 
 ## .gitignore
 * kann man selber anlegen
+
 .-----------
 *.class
 bin/
 *.exe
 .-----------
+
 * github.com/github/gitignore (A collection of useful .gitignore templates)
 
 
@@ -75,6 +77,7 @@ bin/
 1. Login to Github
 2. Create new Repository "code-examples"
 3. in local console:
+
     $ git remote add origin https://github.com/erdnute/code-examples.git
     $ git push -u origin master
 
