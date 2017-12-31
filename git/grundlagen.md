@@ -93,4 +93,8 @@ ralf@erdnute.de/o,o,bb
       $ git tag # Shows all the tags
       $ git show v0.1 # Shows details about the commit that was tagged
 
+## Branching
+
+      
+
 
