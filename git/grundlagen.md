@@ -12,7 +12,7 @@ ralf@erdnute.de/o,o,bb
 # GIT
 
 ## Repository anlegen aus bestehendem Verzeichnis
-$ git int
+    $ git int
 
 ## ADD - Dateien  zur Versionskontrolle hinzufügen
 * git add wird zu verschiedenen Zwecken eingesetzt. Man verwendet ihn, um neue Dateien zur Versionskontrolle hinzuzufügen, Dateien für einen Commit zu markieren und verschiedene andere Dinge – beispielsweise, einen Konflikt aus einem Merge als aufgelöst zu kennzeichnen
