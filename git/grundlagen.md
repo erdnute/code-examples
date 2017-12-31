@@ -44,7 +44,6 @@ ralf@erdnute.de/o,o,bb
 * unmodified (seit dem letzten commit)
 * modified (seit dem letzten commit)
 * staged (für den nächsten Commit vorgemerkt, "Changes to be committed")
-
 * "add" -> staged
 
     $ git status
@@ -57,16 +56,17 @@ ralf@erdnute.de/o,o,bb
 ## .gitignore
 * kann man selber anlegen
 
-.-----------
-*.class
-bin/
-*.exe
-.-----------
+    .-----------
+    *.class
+    bin/
+    *.exe
+    .-----------
 
 * github.com/github/gitignore (A collection of useful .gitignore templates)
 
 
 ## log
+
     $git log --pretty=oneline
     $git log --pretty=format:"%h : %an : %ar : %s"
     $git log --since=1.weeks
