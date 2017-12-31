@@ -80,6 +80,17 @@ ralf@erdnute.de/o,o,bb
        $ git remote add origin https://github.com/erdnute/code-examples.git
        $ git push -u origin master
 
+## Pull / Push
 
+      $ git remote -v  // show connected repository
+      $ git pull (remote -> local)
+      $ git push (local -> remote)
+
+## Tag / Release
+* Tags are used to tag files at important points in history
+
+      $ git tag -a v0.1 -m 'version 0.1' # Creates an annotated tag
+      $ git tag # Shows all the tags
+      $ git show v0.1 # Shows details about the commit that was tagged
 
 
