@@ -1,11 +1,11 @@
 
 # Github
 https://github.com/erdnute/notes
-git@erdnute.de / o,o,git
+git@erdnute.de / o2|git
 
 # Bitbucket
 https://bitbucket.org/erdnute/eins
-ralf@erdnute.de/o,o,bb
+ralf@erdnute.de/o2|bb
 
 ---------------------------------------------------------------------
 
