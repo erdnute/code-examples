@@ -14,8 +14,6 @@ File file = new File(url.toURI());
 URL url = this.getClass().getResource("file.txt");
 File file = new File(url.toURI());
 
-
-
 //Read all .txt files in folder
 File folder = new File("/path/to/files");
 File[] listOfFiles = folder.listFiles();
@@ -140,7 +138,5 @@ String[] lines = StringUtils.split(FileUtils.readFileToString(new File("...")), 
 
 
 // File.separator and File.pathSeparator
-
 File.pathSeparator is used to separate individual file paths in a list of file paths. Consider on windows, the PATH environment variable. You use a ; to separate the file paths so on Windows File.pathSeparator would be ;.
-
 File.separator is either / or \ that is used to split up the path to a specific file. For example on Windows it is \ or C:\Documents\Test
