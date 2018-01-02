@@ -40,8 +40,6 @@ String content = readFile("test.txt", StandardCharsets.UTF_8);
 String content = readFile("test.txt", Charset.defaultCharset());
 
 
-
-
 // Read all files in a folder
 // Java8
 Files.walk(Paths.get("/home/you/Desktop")).forEach(filePath -> {
