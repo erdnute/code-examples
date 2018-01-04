@@ -11,6 +11,8 @@ ralf@erdnute.de/o2|bb
 
 # GIT
 
+## HEAD = reference to current branch
+
 ## Repository anlegen aus bestehendem Verzeichnis
     $ git int
 
